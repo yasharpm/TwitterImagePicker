@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yashoid.twitterimagepicker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application>
+
+        <activity android:name="com.yashoid.twitterimagepicker.TwitterImagePickerActivity"
+            android:theme="@style/twitterimagepicker_activity">
+        </activity>
+
+    </application>
+
+</manifest>

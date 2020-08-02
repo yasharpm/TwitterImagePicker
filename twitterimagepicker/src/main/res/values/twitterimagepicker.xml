@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="twitterimagepicker_actionColor">#1DA1F2</color>
+    <color name="twitterimagepicker_toolbar_background">#FFF</color>
+    <color name="twitterimagepicker_background">#E6ECF0</color>
+    <color name="twitterimagepicker_spinner_textColor">#14171A</color>
+    <color name="twitterimagepicker_check_background">#661DA1F2</color>
+
+    <string name="twitterimagepicker_gallery">Gallery</string>
+    <string name="twitterimagepicker_done">DONE</string>
+
+    <dimen name="twitterimagepicker_itemPadding">1dp</dimen>
+
+    <dimen name="twitterimagepicker_toolbar_elevation">1dp</dimen>
+    <dimen name="twitterimagepicker_toolbar_height">56dp</dimen>
+    <dimen name="twitterimagepicker_toolbar_marginHorizontal">12dp</dimen>
+    <dimen name="twitterimagepicker_toolbar_actionSize">36dp</dimen>
+
+    <dimen name="twitterimagepicker_close_padding">4dp</dimen>
+
+    <dimen name="twitterimagepicker_spinner_marginLeft">24dp</dimen>
+    <dimen name="twitterimagepicker_spinner_marginRight">48dp</dimen>
+    <dimen name="twitterimagepicker_spinner_textSize">18sp</dimen>
+    <dimen name="twitterimagepicker_spinner_maxWidth">140dp</dimen>
+    <dimen name="twitterimagepicker_spinner_dropDownMaxWidth">240dp</dimen>
+    <dimen name="twitterimagepicker_spinner_dropDownTextSize">16sp</dimen>
+    <dimen name="twitterimagepicker_spinner_dropDownPaddingHorizontal">16dp</dimen>
+    <dimen name="twitterimagepicker_spinner_dropDownPaddingVertical">12dp</dimen>
+
+    <dimen name="twitterimagepicker_done_textSize">14sp</dimen>
+
+    <dimen name="twitterimagepicker_check_padding">16dp</dimen>
+
+    <style name="twitterimagepicker_toolbar">
+        <item name="android:background">@color/twitterimagepicker_toolbar_background</item>
+        <item name="android:elevation">@dimen/twitterimagepicker_toolbar_elevation</item>
+    </style>
+
+    <style name="twitterimagepicker_close">
+        <item name="srcCompat">@drawable/twitterimagepicker_close</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="tint">@color/twitterimagepicker_actionColor</item>
+        <item name="android:padding">@dimen/twitterimagepicker_close_padding</item>
+    </style>
+    
+    <style name="twitterimagepicker_spinner">
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="twitterimagepicker_item">
+        <item name="android:textSize">@dimen/twitterimagepicker_spinner_textSize</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/twitterimagepicker_spinner_textColor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxWidth">@dimen/twitterimagepicker_spinner_maxWidth</item>
+    </style>
+
+    <style name="twitterimagepicker_dropdownitem" parent="twitterimagepicker_item">
+        <item name="android:maxWidth">@dimen/twitterimagepicker_spinner_dropDownMaxWidth</item>
+        <item name="android:textSize">@dimen/twitterimagepicker_spinner_dropDownTextSize</item>
+        <item name="android:paddingLeft">@dimen/twitterimagepicker_spinner_dropDownPaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/twitterimagepicker_spinner_dropDownPaddingHorizontal</item>
+        <item name="android:paddingTop">@dimen/twitterimagepicker_spinner_dropDownPaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/twitterimagepicker_spinner_dropDownPaddingVertical</item>
+    </style>
+
+    <style name="twitterimagepicker_done">
+        <item name="android:textSize">@dimen/twitterimagepicker_done_textSize</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/twitterimagepicker_actionColor</item>
+        <item name="android:text">@string/twitterimagepicker_done</item>
+    </style>
+
+    <style name="twitterimagepicker_activity" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+</resources>

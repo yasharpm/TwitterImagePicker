@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <color android:color="@color/twitterimagepicker_check_background"/>
+    </item>
+
+    <item android:drawable="@drawable/twitterimagepicker_check"
+        android:left="@dimen/twitterimagepicker_check_padding"
+        android:top="@dimen/twitterimagepicker_check_padding"
+        android:right="@dimen/twitterimagepicker_check_padding"
+        android:bottom="@dimen/twitterimagepicker_check_padding"/>
+
+</layer-list>
